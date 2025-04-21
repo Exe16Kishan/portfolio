@@ -37,7 +37,7 @@ export default function Introduction() {
             <div className="absolute inset-2 rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
               {/* Replace with your actual image */}
               <div className="bg-gray-700 w-full h-full flex items-center justify-center text-gray-500">
-                Your Photo
+                <img src="/github.jpg" alt="kishan"/>
               </div>
             </div>
           </div>
