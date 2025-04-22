@@ -32,7 +32,7 @@ export default function Competitive() {
   ];
 
   return (
-    <section id="competitive" className="py-16 bg-gray-800/50">
+    <section id="competitive" className="py-16 px-5 bg-gray-800/50">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-2 text-center">Competitive Programming & Hackathons</h2>
         <div className="w-16 h-1 bg-indigo-500 mx-auto mb-10"></div>

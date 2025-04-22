@@ -18,12 +18,12 @@ export default function Skills() {
       },
       {
         category: "DevOps & Tools",
-        skills: ["Git", "Docker", "AWS", "CI/CD", "Agile Methodologies"]
+        skills: ["Git", "Docker", "CI/CD", "Agile Methodologies"]
       }
     ];
   
     return (
-      <section id="skills" className="py-16 bg-gray-800/50">
+      <section id="skills" className="py-16 px-5 bg-gray-800/50">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-2 text-center">Skills & Technologies</h2>
           <div className="w-16 h-1 bg-indigo-500 mx-auto mb-10"></div>
