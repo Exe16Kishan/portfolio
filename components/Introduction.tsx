@@ -9,7 +9,7 @@ export default function Introduction() {
           <h2 className="text-lg font-medium text-indigo-400">Hello, I'm</h2>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
             <span className="block">Kishan Kumar</span>
-            <span className="text-indigo-400 block mt-2"> Graduate</span>
+            <span className="text-indigo-400 block mt-2">CSE Graduate</span>
           </h1>
           <p className="text-gray-400 max-w-lg mx-auto md:mx-0">
             A passionate software developer specialized in web development with a keen interest in building 
