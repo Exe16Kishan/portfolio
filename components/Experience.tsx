@@ -2,30 +2,32 @@ import { Briefcase, Calendar } from 'lucide-react';
 
 export default function Experience() {
   const experiences = [
-    {
-      title: "Frontend Developer",
-      company: "Zero Mail",
-      period: "Febuary 2025 - Present",
-      location: "Remote",
-      description: [
-        "Led the development of a React-based dashboard that increased user engagement by 40%",
-        "Collaborated with a team of 5 engineers to implement new features and improve existing functionality",
-        "Optimized application performance resulting in a 25% reduction in load time",
-      ]
-    },
-    {
-      title: "Full Stack Developer",
-      company: "Linkiz",
-      period: "June 2024 - December 2024",
-      location: "Remote",
-      description: [
-        "Developed and maintained web applications using React, Node.js, and MongoDB",
-        "Implemented authentication system that improved security while maintaining usability",
-        "Worked in an agile environment with bi-weekly sprints and daily stand-ups",
-        "Participated in client meetings to gather requirements and provide technical insights"
-      ]
-    }
-  ];
+  {
+    title: "Full Stack Developer",
+    company: "BrandTangent",
+    period: "May 2025 - Present",
+    location: "Remote, India",
+    description: [
+      "Architected and deployed 10+ production-grade enterprise features using Next.js, Node.js, and PostgreSQL",
+      "Optimized high-traffic REST APIs handling 10K+ requests/day, reducing latency by 40% and increasing throughput by 25%",
+      "Refactored monolithic backend into a microservices architecture, improving system reliability by 35%",
+      "Implemented Redis caching strategy that reduced database queries by 60% and improved API response time"
+    ]
+  },
+  {
+    title: "Full Stack Developer",
+    company: "SkillBridge",
+    period: "Nov 2024 - Apr 2025",
+    location: "Remote, India",
+    description: [
+      "Engineered 20+ reusable React components with TypeScript, reducing frontend development time by 30%",
+      "Optimized 15+ backend endpoints through query tuning and database indexing, improving response time by 45%",
+      "Scaled infrastructure to support 2,000+ concurrent users, increasing daily active engagement by 60%",
+      "Enhanced SSR implementation and caching strategy to achieve sub-1.2 second page load times"
+    ]
+  }
+]
+
 
   return (
     <section id="experience" className="py-16">

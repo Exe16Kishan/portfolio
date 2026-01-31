@@ -2,7 +2,7 @@ export default function Skills() {
     const skillCategories = [
       {
         category: "Programming Languages",
-        skills: ["JavaScript", "TypeScript", "Python", "Java", "C++","C"]
+        skills: ["JavaScript", "TypeScript", "Python", "Java", "C/C++"]
       },
       {
         category: "Frontend Development",
@@ -14,11 +14,11 @@ export default function Skills() {
       },
       {
         category: "Database",
-        skills: ["MongoDB", "PostgreSQL", "MySQL", "Firebase"]
+        skills: ["MongoDB", "PostgreSQL", "MySQL"]
       },
       {
         category: "DevOps & Tools",
-        skills: ["Git", "Docker", "CI/CD", "Agile Methodologies"]
+        skills: ["Git", "Docker","Kubernetes","Kafka","RabbitMq","CI/CD", "AWS"]
       }
     ];
   
